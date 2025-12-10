@@ -1,0 +1,70 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 28px;
+}
+
+
+body > * {
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Labels */
+label {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="senha"]:focus {
+    border-color: #0066ff;
+    box-shadow: 0 0 5px rgba(0, 102, 255, 0.3);
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0066ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #004ecc;
+}
