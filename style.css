@@ -17,7 +17,7 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #000000;
+    color: #002767;
     font-size: 28px;
 }
 
@@ -47,7 +47,7 @@ input[type="password"] {
 }
 
 input[type="text"]:focus,
-input[type="senha"]:focus {
+input[type="password"]:focus {
     border-color: #0066ff;
     box-shadow: 0 0 5px rgba(0, 102, 255, 0.3);
 }
@@ -56,15 +56,24 @@ input[type="senha"]:focus {
 button {
     width: 100%;
     padding: 12px;
-    background: #0066ff;
+    background: #002153;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     color: white;
     cursor: pointer;
     transition: 0.2s;
+    margin-bottom: 20px;
 }
 
 button:hover {
-    background: #004ecc;
+    background: #011434;
+   
+}
+
+p {
+    text-align: center;
+    
+
+
 }
