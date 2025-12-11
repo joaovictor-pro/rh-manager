@@ -12,12 +12,13 @@ body {
     justify-content: center;
     align-items: center;
     background: #f0f2f5;
+    
 }
 
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #002767;
+    color: #ffffff;
     font-size: 28px;
 }
 
@@ -30,12 +31,14 @@ body > * {
 /* Labels */
 label {
     font-size: 16px;
-    color: #444;
+    color: #ffffff;
 }
 
 /* Inputs */
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="e_mail"]
+{
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -47,16 +50,18 @@ input[type="password"] {
 }
 
 input[type="text"]:focus,
-input[type="password"]:focus {
-    border-color: #0066ff;
-    box-shadow: 0 0 5px rgba(0, 102, 255, 0.3);
+input[type="password"]:focus,
+input[type="e_mail"]:focus
+{
+    border-color: #ffffff;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
 }
 
 /* Botão */
 button {
     width: 100%;
     padding: 12px;
-    background: #002153;
+    background: #323232;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -67,13 +72,27 @@ button {
 }
 
 button:hover {
-    background: #011434;
+    background: #494949;
    
 }
 
 p {
     text-align: center;
-    
-
-
+    color: #ffffff;
 }
+
+    .container {
+        max-width: 630px;
+        margin: 120px auto;
+        padding: 30px;
+        background-color: #000000;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0,1);
+    }
+
+    a{
+        color: #fffafa;
+    }
+
+
+
