@@ -12,7 +12,7 @@
     <div class="container">
         <h1>Sistema RH</h1>
 
-        <label for="usuario">Usuário ou CPF</label>
+        <label for="usuario">Usuário ou Email</label>
         <input type="text">
 
         <br><br>
