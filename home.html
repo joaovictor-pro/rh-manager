@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleshome.css">
-    <title>Document</title>
+    <title>Painel de RH</title>
 </head>
 <body>
-      <nav class="navbar">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
         <div class="container">
             <h1 class="logo">RH Manager</h1>
 
@@ -15,9 +17,81 @@
                 <li><a href="#">Funcionários</a></li>
                 <li><a href="#">Folha de Pagamento</a></li>
                 <li><a href="#">Relatórios</a></li>
-                <li><a href="#">Sair</a></li>
+                <li><a href="index.html">Sair</a></li>
             </ul>
         </div>
     </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container">
+
+        <!-- TÍTULO -->
+        <section class="welcome">
+            <h2>Bem-vindo(a) ao Painel de RH!</h2>
+            <p>
+                Aqui você pode visualizar um resumo dos principais dados
+                relacionados à gestão de pessoas da empresa.
+            </p>
+        </section>
+
+        <!-- CARDS -->
+        <section class="cards">
+            <div class="card">
+                <h3>Total de Funcionários</h3>
+                <span class="number">285</span>
+                <p>+5 novos este mês</p>
+            </div>
+
+            <div class="card">
+                <h3>Vagas Abertas</h3>
+                <span class="number">12</span>
+                <p>4 em fase final</p>
+            </div>
+
+            <div class="card">
+                <h3>Taxa de Rotatividade</h3>
+                <span class="number">4,5%</span>
+                <p>Média anual</p>
+            </div>
+        </section>
+
+        <!-- TABELA -->
+        <section class="table-section">
+            <h3>Últimas Contratações</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Cargo</th>
+                        <th>Departamento</th>
+                        <th>Data Admissão</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ana Souza</td>
+                        <td>Analista de RH</td>
+                        <td>Recursos Humanos</td>
+                        <td>10/02/2025</td>
+                    </tr>
+                    <tr>
+                        <td>Carlos Lima</td>
+                        <td>Desenvolvedor</td>
+                        <td>Tecnologia</td>
+                        <td>18/02/2025</td>
+                    </tr>
+                    <tr>
+                        <td>Mariana Alves</td>
+                        <td>Assistente Financeiro</td>
+                        <td>Financeiro</td>
+                        <td>25/02/2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
 </body>
 </html>
