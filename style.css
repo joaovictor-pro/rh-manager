@@ -6,93 +6,89 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 body {
     height: 100vh;
+    background-color: #f4f6f8;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f0f2f5;
-    
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #ffffff;
-    font-size: 28px;
 }
 
 
-body > * {
+.container {
     width: 100%;
-    max-width: 350px;
+    max-width: 360px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-/* Labels */
+
+.container h1 {
+    color: #1e88e5;
+    margin-bottom: 25px;
+}
+
+
 label {
-    font-size: 16px;
-    color: #ffffff;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #333;
 }
 
-/* Inputs */
-input[type="text"],
-input[type="password"],
-input[type="e_mail"]
-{
+input {
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 15px;
     outline: none;
-    transition: 0.2s;
 }
 
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="e_mail"]:focus
-{
-    border-color: #ffffff;
-    box-shadow: 0 0 5px rgb(255, 255, 255);
+
+input:focus {
+    border-color: #1e88e5;
+    box-shadow: 0 0 5px rgba(30, 136, 229, 0.4);
 }
 
-/* Botão */
+
 button {
     width: 100%;
     padding: 12px;
-    background: #323232;
+    background-color: #1e88e5;
     border: none;
     border-radius: 5px;
+    color: #fff;
     font-size: 16px;
-    color: white;
     cursor: pointer;
-    transition: 0.2s;
-    margin-bottom: 20px;
+    transition: 0.3s;
 }
+
 
 button:hover {
-    background: #494949;
-   
+    background-color: #1565c0;
 }
+
 
 p {
-    text-align: center;
-    color: #ffffff;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
 }
 
-    .container {
-        max-width: 630px;
-        margin: 120px auto;
-        padding: 30px;
-        background-color: #000000;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0,1);
-    }
 
-    a{
-        color: #fffafa;
-    }
+a {
+    color: #1e88e5;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
-
+a:hover {
+    text-decoration: underline;
+}
